@@ -1,0 +1,218 @@
+.my-button{
+    position: fixed;
+    right: 5%;
+    top: 45%;
+    width: 15%;
+    height: 12%;
+    font-size: x-large;
+    border-radius: 10px;
+    outline: none;
+    background-color: rgb(65, 64, 64);
+    color: white;
+    box-shadow: 0px 0px 20px white;
+    transition: 0.35s;
+}
+.my-button:hover{
+    color:rgb(0, 0, 0) ;
+    background-color: white;
+    box-shadow: 0px 0px 20px rgb(65, 64, 64) ;
+    cursor: pointer;
+}
+
+.container{
+    margin: 0px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.95;
+    transform: scale(0);
+    transition: 0.7s;
+
+}
+
+#close{
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    outline: none;
+    background-color:black ;
+    font-size: x-large;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#close:hover {
+    color: red;
+    font-size: xx-large;
+}
+#close:active{
+    color: white;
+}
+
+
+
+.conta2{
+    position: fixed;
+    width: 50%;
+    height: 27%;
+    margin-left: 25%;
+    margin-top: 5%;
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow:0px 0px 20px turquoise;
+    background-color: rgb(1, 65, 58);
+    transition: 0.2s;
+    text-align: center;
+    font-size: large;
+    color: white;
+
+    
+}
+
+#number{
+    position: absolute;
+    top: 60px;
+    left: 35%;
+    width: 60%;
+    height: 30%;
+    outline: none;
+    box-shadow: 0px 0px 7px white;
+    transition: 0.8s;
+
+}
+
+.n{
+    position: absolute;
+    top: 43%;
+    left: 8%;
+    font-size: x-large;
+    color: white;
+    text-shadow: 0px 0px 7px white;
+    transition: 0.8s;
+}
+
+.get-data {
+    width: 70%;
+    height: 60%;
+    position: absolute;
+    top: 20%;
+    left:15% ;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: 0px 0px 20px white;
+    transform: scale(0);
+    transition: 0.5s;
+}
+
+.span-name{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    color: white;
+    font-size: large;
+    text-shadow: 0px 0px 5px white;
+}
+
+.input-name{
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    width: 40%;
+    height: 8%;
+    box-shadow: 0px 0px 5px white;
+    outline: none;
+}
+
+.span-parcent{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    color: white;
+    font-size: large;
+    text-shadow: 0px 0px 5px white;
+}
+.input-parcent{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    width: 40%;
+    height: 8%;
+    box-shadow: 0px 0px 5px white;
+    outline: none;
+}
+
+.span-color{
+    position: absolute;
+    top: 75%;
+    left: 5%;
+    color: white;
+    font-size: large;
+    text-shadow: 0px 0px 5px white;
+}
+
+.input-color{
+    position: absolute;
+    top: 75%;
+    left: 45%;
+    width: 50px;
+    height: 20px;
+    border-radius: 2px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px white;
+    outline: none;
+}
+
+.previos{
+    position: absolute;
+    left: 10%;
+    bottom: 6%;
+    width: 70px;
+    height: 35px;
+    display: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.next{
+    position: absolute;
+    right: 10%;
+    bottom: 6%;
+    width: 70px;
+    height: 35px;
+    font: bolder;
+    display: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.fill-data{
+    position: absolute;
+    right: 10%;
+    bottom: 6%;
+    width: 70px;
+    height: 35px;
+    font: bolder;
+    transform: scale(0);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.information {
+    position: absolute;
+    margin: 20px 28%;
+    color: white;
+    font-size: x-large;
+    transform: scale(0);
+    transition: 0.2s;
+
+}
